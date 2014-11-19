@@ -9,7 +9,7 @@ To run the app download and extract the ZIP file. Then, copy and paste in R.
 
 ```
 library(shiny)
-library(shinyRGL) #
+library(shinyRGL) 
 runApp("/path/to/the/app/gradients.cor-master")
 
 ```
