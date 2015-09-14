@@ -3,7 +3,7 @@ library(rgl)
 library(shinyRGL)
 
 shinyUI(fluidPage(
-  titlePanel("Gradientes de selección lineal"),
+  titlePanel("Gradientes de selección correlacional"),
   sidebarLayout(
     sidebarPanel(
       sliderInput("g12", label = "gamma 12", min= -0.9, max=1, value = 0, step = 0.1),
